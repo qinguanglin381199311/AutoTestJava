@@ -1,0 +1,26 @@
+[
+  {
+    "description": "模拟一个post请求",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是一个post请求..."
+    }
+  },
+  {
+    "description":"模拟一个带参数的post请求",
+    "request":{
+      "uri":"PostDemoParam",
+      "method":"post",
+      "forms":{dir
+        "name":"qgl",
+        "age":26
+      }
+    },"response":{
+    "text":"wo  hu han san dai zhe can shu hui lai l ..."
+  }
+
+  }
+]
