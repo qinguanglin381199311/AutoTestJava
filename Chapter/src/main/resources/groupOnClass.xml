@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suitename">
+    <test name="run_all">
+        <classes>
+            <class name="com.cmp.testng.groups.GroupOnClass1"/>
+            <class name="com.cmp.testng.groups.GroupOnClass2"/>
+            <class name="com.cmp.testng.groups.GroupOnClass3"/>
+            <class name="com.cmp.testng.groups.GroupOnClass4"/>
+
+        </classes>
+    </test>
+
+
+    <test name="onlyRunStu">
+        <classes>
+            <class name="com.cmp.testng.groups.GroupOnClass1"/>
+            <class name="com.cmp.testng.groups.GroupOnClass2"/>
+            <class name="com.cmp.testng.groups.GroupOnClass3"/>
+            <class name="com.cmp.testng.groups.GroupOnClass4"/>
+
+        </classes>
+    </test>
+
+
+    <test name="groupsRunAll">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+    </test>
+</suite>
