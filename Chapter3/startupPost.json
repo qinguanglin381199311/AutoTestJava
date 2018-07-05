@@ -14,7 +14,7 @@
     "request":{
       "uri":"PostDemoParam",
       "method":"post",
-      "forms":{dir
+      "forms":{
         "name":"qgl",
         "age":26
       }
