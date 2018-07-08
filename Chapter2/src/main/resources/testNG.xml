@@ -9,7 +9,13 @@
                     <include name="test2"/>
                     <include name="test3"/>
                     <include name="logDemo"/>
+                </methods>
 
+                <methods>
+                    <include name="aaaa"/>
+                    <include name="bbbb"/>
+                    <include name="cccc"/>
+                    <include name="dddd"/>
                 </methods>
 
 

@@ -1,0 +1,9 @@
+[
+  {
+    "description":"这是一个重定向",
+    "request":{
+      "uri":"/redirect"
+    },"redirectTo":"http://www.baidu.com"
+
+  }
+]
